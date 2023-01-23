@@ -1,0 +1,125 @@
+#content {
+  width: 100%;
+  padding: 0px;
+  display: flex;
+  flex-direction: column;
+}
+#content > form {
+  box-sizing: border-box;
+  font-size: 16px;
+  line-height: 24px;
+  position: relative;
+  left: -23px;
+  top: 0px;
+  margin: 10px 0 40px;
+}
+.search-img {
+  position: relative;
+  left: 40px;
+  top: 0px;
+}
+#content > form input {
+  display: inline;
+  background: #ffffff;
+  border: 1px solid #eaeaea;
+  box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.05);
+  border-radius: 5px;
+  background-image: src= "logo.png";
+  background-repeat: no-repeat;
+  width: 600px;
+  height: 50px;
+  padding: 13px 20px 13px 60px;
+  line-height: 1.5;
+}
+#content > h2 {
+  color: #363636;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  margin: 0;
+}
+hr {
+  margin-top: 5px;
+}
+.results {
+  display: flex;
+  align-items: center;
+  gap: 45px;
+  padding: 25px 15px 13px;
+}
+#content #card {
+  display: block;
+  width: 400px;
+  height: 530px;
+  background: #ffffff;
+  border: 1px solid #eaeaea;
+  box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.05);
+  border-radius: 5px;
+  padding: 0px;
+  margin: 0;
+}
+#content > div h1 {
+  color: #363636;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  padding: 0px;
+  margin: 0;
+}
+#content > div h3 {
+  color: #363636;
+  opacity: 0.6;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  padding: 0px 0px 23px;
+  margin: 0;
+}
+.card-img {
+  padding: 0px;
+  margin: 0;
+}
+.card-img img {
+  position: absolute;
+  width: 400px;
+  height: 217px;
+  left: 0px;
+  top: 0px;
+}
+.card-body {
+  position: relative;
+  left: 0px;
+  top: 217px;
+  text-align: start;
+  height: 313px;
+  padding: 25px;
+  margin: 0;
+}
+.card-text {
+  color: #363636;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  padding: 20px 0px;
+  margin: 0;
+}
+.card-link {
+  position: absolute;
+  left: 25px;
+  bottom: 25px;
+  line-height: 24px;
+  padding: 0px;
+}
+.card-link .link {
+  color: #363636;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+}
+.card-link .path-sign {
+  color: #130f26;
+  position: relative;
+  left: 6px;
+  top: 2px;
+}

@@ -1,0 +1,74 @@
+#page {
+  display: block;
+  width: 100%;
+  padding: 0px;
+}
+#page img {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 245px;
+}
+#page #article {
+  display: block;
+  max-width: 1290px;
+  height: 1101px;
+  padding: 100px 0px 0px;
+}
+#page #card {
+  display: block;
+  max-width: 1290px;
+  height: 1001px;
+  background: #ffffff;
+  border: 1px solid #eaeaea;
+  box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.05);
+  border-radius: 5px;
+  padding: 35px 75px 50px;
+}
+#page > div h1 {
+  color: #363636;
+  text-align: center;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  padding: 0px;
+  margin: 0;
+}
+.card-discription {
+  padding: 50px 0px;
+}
+.card-text {
+  color: #000000;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  padding: 20px 0px;
+  margin: 0;
+}
+.card-discription li {
+  color: #000000;
+  font-weight: 400;
+  font-size: 18px;
+  padding: 5px 0px;
+}
+.article-link {
+  position: relative;
+  left: 0px;
+  top: 35px;
+  line-height: 24px;
+  padding: 0px 0px 45px 75px;
+}
+.article-link a {
+  color: #363636;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+}
+.article-link .path-sign {
+  color: #130f26;
+  position: relative;
+  right: 6px;
+  top: 2px;
+}
